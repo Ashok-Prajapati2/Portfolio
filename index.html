@@ -126,6 +126,24 @@
 		.zoom-effect:hover {
 			transform: scale(1.1);
 		}
+
+	
+    .circular-img {
+        width: 150px; /* Adjust as needed */
+        height: 150px; /* Match width for a perfect square */
+        border-radius: 50%; /* Makes it circular */
+       object-fit: cover; /* Ensures the image covers the square without stretching */
+    }
+
+	
+  
+
+    .project-demo-img {
+        margin-top: 15px; /* Adds space above the image */
+        max-width: 100%; /* Ensures the image doesn't exceed container width */
+        border-radius: 8px; /* Optional: Rounded corners for the image */
+    }
+
 	</style>
 
 
@@ -149,6 +167,7 @@
 						<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 						<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 						<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+						<li class="nav-item"><a href="#Project-section" class="nav-link"><span>Projects</span></a></li>
 						<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 					</ul>
 				</div>
@@ -236,9 +255,9 @@
 									<div class="row">
 										<div class="col-sm-6 col-md-5">
 											<div class="about-img">
-												<img src="static/images/about-me1.png"
-													class="img-fluid rounded b-shadow-a" alt="ASHOK">
+												<img src="static/images/about-me1.png" class="img-fluid b-shadow-a circular-img" alt="ASHOK">
 											</div>
+											
 										</div>
 
 										<!-- Details next to profile image -->
@@ -382,6 +401,10 @@
 									Transform methods to accurately detect both straight and curved lane lines, ensuring
 									robust performance in various driving conditions.</li>
 								<li><a href="https://github.com/">Project Link</a></li>
+								<li style="list-style: none;">
+									<img src="static/images/demo/r1.png" alt="Project Demo Image" class="project-demo-img">
+									<img src="static/images/demo/r2.png" alt="Project Demo Image" class="project-demo-img"></li>
+							
 							</ul>
 						</div>
 					</div>
@@ -398,6 +421,11 @@
 									learning algorithms, and optimized model performance through hyperparameter tuning
 									and cross-validation, achieving high accuracy in heart disease prediction.</li>
 								<li><a href="https://github.com/">Project Link</a></li>
+								<li style="list-style: none;">
+									<img src="static/images/demo/r1.png" alt="Project Demo Image" class="project-demo-img">
+									<img src="static/images/demo/r2.png" alt="Project Demo Image" class="project-demo-img"></li>
+							
+							</ul>
 							</ul>
 						</div>
 					</div>
@@ -418,6 +446,11 @@
 									seamless shopping experience, along with an intuitive admin interface for efficient
 									inventory management and order tracking.</li>
 								<li><a href="https://github.com/">Project Link</a></li>
+								<li style="list-style: none;">
+									<img src="static/images/demo/d1.jpeg" alt="Project Demo Image" class="project-demo-img" style="width: 30vh;">
+									<img src="static/images/demo/d2.jpeg" alt="Project Demo Image" class="project-demo-img" style="height: 20vh;"></li>
+							
+							</ul>
 							</ul>
 						</div>
 					</div>
@@ -436,7 +469,8 @@
 									user-friendly interface for article searching and result display. Integrated a
 									database for efficient storage and retrieval of articles, enhancing user experience.
 								</li>
-								<li><a href="https://github.com/">Project Link</a></li>
+								<li><a href="https://github.com/" class="project-link-btn">Project Link</a></li>
+								<li><img src="https://unsplash.com/photos/mfB1B1s4sMc/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzMwNzMyNzMwfA&force=true&w=1920" alt="Project Demo Image" class="project-demo-img"></li>
 							</ul>
 						</div>
 					</div>
